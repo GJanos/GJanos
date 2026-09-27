@@ -15,6 +15,7 @@ Lately I'm focused on **AI-powered and agentic applications**.
 
 | Project | What it is | Stack |
 | --- | --- | --- |
+| **[kindergarten-roster](https://github.com/GJanos/kindergarten-roster)** ([live demo](https://gjanos.github.io/kindergarten-roster/)) | Staff rostering web app: a MILP model solved in the browser with HiGHS (WebAssembly), replacing a manual weekly roster | React · TypeScript · Vite · HiGHS · PWA |
 | **[pulse-news](https://github.com/GJanos/pulse-news)** | AI-generated personalized news digest app | React Native · Expo · Supabase · TypeScript |
 | **[obsidian-llm](https://github.com/GJanos/obsidian-llm)** | LLM tooling over an Obsidian knowledge base | Python |
 | **[Depot — thesis backend](https://github.com/GJanos/bme-aut-2024-thesis-storage-manager)** | Warehouse inventory management REST backend (BSc thesis) | Java · Spring Boot · PostgreSQL · Docker · CI |
@@ -35,6 +36,7 @@ PlatformIO (ESP32) · Supabase · Firebase · Docker · GitHub Actions
 ## 📚 Project index
 
 ### Active
+- **[kindergarten-roster](https://github.com/GJanos/kindergarten-roster)** — break-week staff roster for a kindergarten: staged MILP (HiGHS/WASM) in a Web Worker, offline PWA, Excel export; data never leaves the browser ([live demo](https://gjanos.github.io/kindergarten-roster/)).
 - **[pulse-news](https://github.com/GJanos/pulse-news)** — AI-generated personalized news digest (React Native / Expo / Supabase).
 - **[obsidian-llm](https://github.com/GJanos/obsidian-llm)** — LLM tooling over an Obsidian vault (Python).
 
