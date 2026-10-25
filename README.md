@@ -39,9 +39,26 @@ PlatformIO (ESP32) · Supabase · Firebase · Docker · GitHub Actions
 - **[kindergarten-roster](https://github.com/GJanos/kindergarten-roster)** — break-week staff roster for a kindergarten: staged MILP (HiGHS/WASM) in a Web Worker, offline PWA, Excel export; data never leaves the browser ([live demo](https://gjanos.github.io/kindergarten-roster/)).
 - **[pulse-news](https://github.com/GJanos/pulse-news)** — AI-generated personalized news digest (React Native / Expo / Supabase).
 - **[obsidian-llm](https://github.com/GJanos/obsidian-llm)** — LLM tooling over an Obsidian vault (Python).
-- **Study** *(private)* — Obsidian control panel over a spaced-revision system for a personal
-  knowledge vault: roster, coverage dashboard, memory timeline, and configuration edited in place
-  (TypeScript, Obsidian API).
+
+### Obsidian plugins — private
+
+Native plugins I build and run against my own vault (TypeScript, Obsidian API). Each is its own
+repo; the vault copies are deployed artifacts.
+
+- **Study** — control panel over a spaced-revision system: roster, coverage dashboard, memory
+  timeline, and every scheduling setting edited in place.
+- **Journal** — weekly/monthly/quarterly journal workflow: new-week command, automatic week stats,
+  todo clean-up, generated views.
+- **Finders** — note creation for films, books and manga: external lookups, a shared finder core,
+  templates.
+- **Life-lens** — read-only cross-year index of life notes: week/month/quarter/year/all, threads,
+  games, traditions.
+- **Vault-health** — daily startup check for broken links, template leftovers, folder tags and odd
+  values, with Fix buttons for the mechanical ones.
+- **Skill-runner** — launches my Claude Code skills from inside Obsidian; a note's menu offers the
+  skill that fills it, and other plugins call its API.
+- **plugin-tools** — the shared esbuild build, vault deploy and upstream fork-sync scripts behind
+  the repos above.
 
 ### Backend & full-stack
 - **[bme-aut-2024-thesis-storage-manager](https://github.com/GJanos/bme-aut-2024-thesis-storage-manager)** — Spring Boot warehouse/inventory backend with JWT auth, Docker, CI & SonarCloud *(BSc thesis)*.
