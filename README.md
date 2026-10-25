@@ -39,6 +39,9 @@ PlatformIO (ESP32) · Supabase · Firebase · Docker · GitHub Actions
 - **[kindergarten-roster](https://github.com/GJanos/kindergarten-roster)** — break-week staff roster for a kindergarten: staged MILP (HiGHS/WASM) in a Web Worker, offline PWA, Excel export; data never leaves the browser ([live demo](https://gjanos.github.io/kindergarten-roster/)).
 - **[pulse-news](https://github.com/GJanos/pulse-news)** — AI-generated personalized news digest (React Native / Expo / Supabase).
 - **[obsidian-llm](https://github.com/GJanos/obsidian-llm)** — LLM tooling over an Obsidian vault (Python).
+- **Study** *(private)* — Obsidian control panel over a spaced-revision system for a personal
+  knowledge vault: roster, coverage dashboard, memory timeline, and configuration edited in place
+  (TypeScript, Obsidian API).
 
 ### Backend & full-stack
 - **[bme-aut-2024-thesis-storage-manager](https://github.com/GJanos/bme-aut-2024-thesis-storage-manager)** — Spring Boot warehouse/inventory backend with JWT auth, Docker, CI & SonarCloud *(BSc thesis)*.
